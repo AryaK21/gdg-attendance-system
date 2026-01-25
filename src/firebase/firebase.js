@@ -5,7 +5,7 @@ import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
 
-  apiKey: "AIzaSyBJMdV_uvqIsSaQ4QY4fIhtpJpIo3apaxU",
+  apiKey: "API KEY",
 
   authDomain: "gdg-attendance-system.firebaseapp.com",
 
@@ -13,11 +13,11 @@ const firebaseConfig = {
 
   storageBucket: "gdg-attendance-system.firebasestorage.app",
 
-  messagingSenderId: "155580839828",
+  messagingSenderId: "SENDERID",
 
-  appId: "1:155580839828:web:26479e6b9de40d4747c181",
+  appId: "APPID",
 
-  measurementId: "G-PJVRR5S0F8"
+  measurementId: "MEASUREMENTID"
 
 };
 

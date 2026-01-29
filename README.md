@@ -101,6 +101,6 @@ To Deploy you must replace the API Placeholers with the required APIs
 > 
 > To access the **Admin Panel**, use the following credentials:
 > - **ID:** `admin@gmail.com`
-> - **Password:** `admin@123`
+> - **Password:** `admin123`
 >
 > For the **Client (Student) Panel**, you can sign up or use any account.

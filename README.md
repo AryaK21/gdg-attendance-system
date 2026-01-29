@@ -81,6 +81,9 @@ This project was built for GDG On Campus / Hackathon submission and focuses on p
    firebase deploy
    ```
 
+To Deploy you must replace the API Placeholers with the required APIs
+
+
 ## 🧪 Testing
 
 - Verified on multiple devices and browsers.

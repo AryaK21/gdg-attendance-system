@@ -1,0 +1,32 @@
+type User @table {
+  displayName: String!
+  role: String!
+  createdAt: Timestamp!
+  email: String
+}
+
+type Session @table {
+  admin: User!
+  code: String!
+  radiusMeters: Int!
+  startTime: Timestamp!
+  status: String!
+  createdAt: Timestamp!
+  endTime: Timestamp
+  name: String
+  description: String
+}
+
+type AttendanceRecord @table {
+  client: User!
+  session: Session!
+  attendedAt: Timestamp!
+  isInRadius: Boolean!
+}
+
+type Location @table {
+  user: User!
+  latitude: Float!
+  longitude: Float!
+  updatedAt: Timestamp!
+}
